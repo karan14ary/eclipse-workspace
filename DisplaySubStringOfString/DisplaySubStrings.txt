@@ -1,0 +1,10 @@
+Execution for diplaying the substrings of strngs
+Take the user input from the user
+call the displaySubString(Str)
+convert the string to char arr using to CharArray()
+Traverse the element of an array from 0 to array.length-1
+by using for loop for i iteration
+Create an empty string s=""
+use another loop for interation i where j=i;j<=arr.length -1
+concate s=s+arr[j]
+print s

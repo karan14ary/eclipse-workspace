@@ -1,0 +1,8 @@
+step 1 :Take the user input from the user
+step 2 :Take the iteration using for loop from n =1 to n<=10000 and check for each number for Armstrong Number 
+step 3 :Take the count of each digit using while loop
+step 4 :Take each digit of the number by using the while loop untill n is not equal to 0
+step 5 :Raise the power of each digit taking digit as base and count as exponent
+step 6 :Take the sum of power raised values of digits
+step 7 :Check if the sum  and user input number is equal or not
+step 8 :if sum is = to number then print Armstrong number from 1 to n

@@ -1,0 +1,8 @@
+steps for executing the sum of digit until single digit
+step 1 : Take user input from the user as n
+step 2 :check until a number is greater than 10 using while loop
+step 3 :take nested while loop for each digit until n is not equal to 0
+step 4 :take the each digit/remeinder and store it in r using n%10
+step 4 : take the sum of digits 
+step 5 : assign number with sum so the sum value will go in loop if greater than equal to 10 
+step 6 : print the sum of digits until the value of sum is single digit

@@ -1,0 +1,6 @@
+step for executioin of sum of square of number from 1 to n
+Step 1 :Take the user input n
+step 2 :Take iternation using for loop from i=1 to i<=n
+step 3 :take the square of each number using i*i and store it in int s variable 
+step 4 :take the sum of the square number using squaresum=squaresum+s where squaresum is initialized as 0
+step 5 :Print squaresum sum of square from 1 to n 

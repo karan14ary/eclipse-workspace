@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\SpringProject7\src\main\java\com\springProject7autowiringbyName\SpringProject7\App.java"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\SpringProject6"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\SpringProject5\pom.xml"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\SpringProject4"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\CRUDOperationinHibernate\src\main\java\com\Hibernate\Project8\CRUDOperationinHibernate\App.java"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\SpringApp"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\Abstraction"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\ManytoOneorOnetoMany"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\OnetoOneMapping\pom.xml"/>
+			<item value="C:\Users\Karan Ray Tharu\eclipse-workspace\HibernateProject1WithMaven\src\main\java\hibernate.cfg.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.springProject8autowirinannotation.SpringProject8"/>
+			<item value="com.springProject7autowiringbyName.SpringProject7"/>
+			<item value="com.springProject7autowiringbyType.SpringProject"/>
+			<item value="com.springProject6wiring.SpringProject6"/>
+			<item value="com.springProject5wiring.SpringProject5"/>
+			<item value="com.springProject1Employee.SpringProject4"/>
+			<item value="com.springProjectEmployee.SpringProject3"/>
+			<item value="com.springProjectLaptop.SpringProject2"/>
+			<item value="com.Crudhib.Crud"/>
+			<item value="com.SpringProject1.SpringProject1"/>
+			<item value="com.Hibernate.Project9.SpringApp"/>
+			<item value="com.Hibernate.Project8.CRUDOperationinHibernate"/>
+			<item value="com.Hibernate.Project6.ManytoMany"/>
+			<item value="com.Hibernate.Project5.ManytoOneorOnetoMany"/>
+			<item value="com.Hibernate.Project4.OnetoOneBidirectional"/>
+		</list>
+		<list key="groupId">
+			<item value="com.springProject8autowirinannotation"/>
+			<item value="com.springProject7autowiringbyName"/>
+			<item value="com.springProject7autowiringbyType"/>
+			<item value="com.springProject6wiring"/>
+			<item value="com.springProject5wiring"/>
+			<item value="com.springProject1Employee"/>
+			<item value="com.springProjectEmployee"/>
+			<item value="com.springProjectLaptop"/>
+			<item value="com.Crudhib"/>
+			<item value="com.SpringProject1"/>
+			<item value="com.Hibernate.Project9"/>
+			<item value="com.Hibernate.Project8"/>
+			<item value="com.Hibernate.Project6"/>
+			<item value="com.Hibernate.Project5"/>
+			<item value="com.Hibernate.Project4"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringProject8"/>
+			<item value="SpringProject7"/>
+			<item value="SpringProject"/>
+			<item value="SpringProject6"/>
+			<item value="SpringProject5"/>
+			<item value="SpringProject4"/>
+			<item value="SpringProject3"/>
+			<item value="SpringProject2"/>
+			<item value="Crud"/>
+			<item value="SpringProject1"/>
+			<item value="SpringApp"/>
+			<item value="CRUDOperationinHibernate"/>
+			<item value="ManytoMany"/>
+			<item value="ManytoOneorOnetoMany"/>
+			<item value="OnetoOneBidirectional"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

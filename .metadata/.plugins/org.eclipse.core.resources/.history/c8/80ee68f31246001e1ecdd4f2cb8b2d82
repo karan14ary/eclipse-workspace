@@ -1,0 +1,22 @@
+package com.ReverseWordOrder;
+
+public class ReverseWordOrder {
+	static void reverseWordOrder(String str) {
+		String[]arr=str.split(" ");
+		//split the string by the space present in  string array  to identify words 
+		for(int i=arr.length-1;i>=0;i--) 
+		{//take the last word from string array to index 0
+			System.out.print(arr[i]+" "); 
+			//print the reverse word with space
+		}
+		String s1 = arr.toString();
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "ReverseWordOrder []";
+	}
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.constructorchainingusingsupermethod&apos; to &apos;com.constructorchainingusingthismethod&apos;&#x0D;&#x0A;- Original project: &apos;SuperKeyword&apos;&#x0D;&#x0A;- Original element: &apos;SuperKeyword/src/com.constructorchainingusingsupermethod&apos;&#x0D;&#x0A;- Renamed element: &apos;SuperKeyword/src/com.constructorchainingusingthismethod&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.constructorchainingusingsupermethod&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.constructorchainingusingsupermethod" name="com.constructorchainingusingthismethod" qualified="false" references="true" stamp="1697507981646" textual="false" version="1.0"/>
+</session>

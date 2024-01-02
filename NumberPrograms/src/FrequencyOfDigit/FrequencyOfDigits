@@ -1,0 +1,9 @@
+steps for execution for frequency of digit
+step 1 : Take the user input for number as integer
+step 2 :Take an empty array
+step 3 :Take each digit of the number using while loop until n is not equal to 0
+step 4 :Increase the count of digit when ever it get the same digit
+step 5 :take for loop for an array from index value to to it's length
+step 6 : assign array of index value  0 to array length
+step 7 :Check for the value is not equal to 0
+step 8 : print the non zero  value of the array along with the digit frequency

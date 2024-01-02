@@ -1,0 +1,56 @@
+package com.Hibernate.Project4.OnetoOneBidirectional;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class App 
+{
+	public static void main( String[] args )
+	{
+		Bike bk1=new Bike();
+		Bike bk2=new Bike();
+		Bike bk3=new Bike();
+		Student s1=new Student();
+		Student s2=new Student();
+		Student s3=new Student();
+		s1.setRollno(11);
+		s1.setName("Ajay");
+		s1.setAge(24);
+		s2.setRollno(12);
+		s2.setName("Amit");
+		s2.setAge(25);
+		s3.setRollno(13);
+		s3.setName("Anuj");
+		s3.setAge(23);
+		bk1.setBikeId(001);
+		bk1.setBrand("Hero");
+		bk1.setColor("Black");
+		bk2.setBikeId(002);
+		bk2.setBrand("Ktm");
+		bk2.setColor("Red");
+		bk3.setBikeId(003);
+		bk3.setBrand("Honda");
+		bk3.setColor("Blue");
+		
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		SessionFactory factory = cfg.buildSessionFactory();
+		Session session = factory.openSession();
+		Transaction trans = session.beginTransaction();
+		
+		session.save(s1);
+		session.save(s2);
+		session.save(s3);
+		session.save(bk1);
+		session.save(bk2);
+		session.save(bk3);
+		trans.commit();
+		System.out.println("Hibernate is working properly");
+		System.out.println("Student object saved in database ");
+		System.out.println("Bike object saved in database ");
+		
+		
+	}
+}

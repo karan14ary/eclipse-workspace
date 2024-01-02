@@ -1,0 +1,7 @@
+package com.MultiThrwadingex2;
+
+public class PrintChar extends Thread {
+public void run() {
+	
+}
+}

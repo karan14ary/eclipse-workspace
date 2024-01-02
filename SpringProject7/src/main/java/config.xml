@@ -1,0 +1,54 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- byName -->
+	<!-- <bean class="com.springProject7autowiringbyName.SpringProject7.Car" 
+		id="car" autowire="byName"> </bean> <bean class="com.springProject7autowiringbyName.SpringProject7.Driver" 
+		id="dr"> <property name="id" value="12"></property> <property name="name" 
+		value="Ajay"></property> <property name="age" value="41"></property> </bean> 
+		<bean class="com.springProject7autowiringbyName.SpringProject7.Driver" id="d2"> 
+		<property name="id" value="13"></property> <property name="name" value="Amit"></property> 
+		<property name="age" value="45"></property> </bean> <bean class="com.springProject7autowiringbyName.SpringProject7.Driver" 
+		id="d3"> <property name="id" value="14"></property> <property name="name" 
+		value="Anuj"></property> <property name="age" value="33"></property> </bean> 
+		<bean class="com.springProject7autowiringbyName.SpringProject7.University" 
+		id="university" autowire="byName"> </bean> <bean class="com.springProject7autowiringbyName.SpringProject7.Professor" 
+		id="pr"> <constructor-arg value="123"></constructor-arg> <constructor-arg 
+		value="Praveen"></constructor-arg> <constructor-arg value="Math"></constructor-arg> 
+		</bean> <bean class="com.springProject7autowiringbyName.SpringProject7.Professor" 
+		id="p2"> <constructor-arg value="334"></constructor-arg> <constructor-arg 
+		value="Prakash"></constructor-arg> <constructor-arg value="Science"></constructor-arg> 
+		</bean> -->
+	<!-- byType -->
+	<!-- <bean class="com.springProject7autowiringbyName.SpringProject7.Car" 
+		id="car" autowire="byType"> </bean> <bean class="com.springProject7autowiringbyName.SpringProject7.Driver" 
+		> <property name="id" value="12"></property> <property name="name" value="Ajay"></property> 
+		<property name="age" value="41"></property> </bean> <bean class="com.springProject7autowiringbyName.SpringProject7.University" 
+		id="university" autowire="byType"> </bean> <bean class="com.springProject7autowiringbyName.SpringProject7.Professor" 
+		> <constructor-arg value="123"></constructor-arg> <constructor-arg value="Praveen"></constructor-arg> 
+		<constructor-arg value="Math"></constructor-arg> </bean> -->
+	<!-- byConstructor -->
+	<bean
+		class="com.springProject7autowiringbyName.SpringProject7.Car" id="car"
+		autowire="constructor">
+	</bean>
+	<bean
+		class="com.springProject7autowiringbyName.SpringProject7.Driver">
+		<property name="id" value="12"></property>
+		<property name="name" value="Ajay"></property>
+		<property name="age" value="41"></property>
+	</bean>
+
+	<bean
+		class="com.springProject7autowiringbyName.SpringProject7.University"
+		id="university" autowire="constructor">
+	</bean>
+	<bean
+		class="com.springProject7autowiringbyName.SpringProject7.Professor">
+		<constructor-arg value="123"></constructor-arg>
+		<constructor-arg value="Praveen"></constructor-arg>
+		<constructor-arg value="Math"></constructor-arg>
+	</bean>
+
+</beans>

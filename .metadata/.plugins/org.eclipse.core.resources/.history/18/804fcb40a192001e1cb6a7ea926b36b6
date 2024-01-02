@@ -1,0 +1,39 @@
+package com.Hibernate.Project7.MTM;
+import java.util.*;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	List <Employee> l1=new ArrayList<>();
+    	List <Employee> l2=new ArrayList<>();
+    	List <Employee> l3=new ArrayList<>();
+    	List <Employee> l4=new ArrayList<>();
+    	List <Employee> l5=new ArrayList<>();
+    	List <Technology> t1=new ArrayList<>();
+    	List <Technology> t2=new ArrayList<>();
+    	List <Technology> t3=new ArrayList<>();
+    	List <Technology> t4=new ArrayList<>();
+    	List <Technology> t5=new ArrayList<>();
+    	Employee e1=new Employee(11,"Prakash","Team-A",l1);
+    	Employee e2=new Employee();
+    	Employee e3=new Employee();
+    	Employee e4=new Employee();
+    	Employee e5=new Employee();
+    	Technology te1=new Technology();
+    	Technology te2=new Technology();
+    	Technology te3=new Technology();
+    	Technology te4=new Technology();
+    	
+        Configuration cfg = new Configuration().configure();
+        SessionFactory factory = cfg.buildSessionFactory();
+        Session session = factory.openSession();
+        Transaction transaction = session.beginTransaction();
+        
+        transaction.commit();
+    }
+}

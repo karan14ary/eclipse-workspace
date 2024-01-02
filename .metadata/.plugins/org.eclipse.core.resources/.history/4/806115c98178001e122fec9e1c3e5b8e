@@ -1,0 +1,15 @@
+package com.MultiThrwadingex2;
+
+public class PrintChar extends Thread {
+public void run() {
+	try{
+		for(char i='a';i<='e';i++) {
+			System.out.println(i);
+			Thread.sleep(2000);
+		}
+	}
+	catch(InterruptedException ie) {
+		ie.printStackTrace();
+	}
+}
+}

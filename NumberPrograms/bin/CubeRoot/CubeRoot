@@ -1,0 +1,4 @@
+Steps for execution of cube root
+step 1 : Take the user input from the user as double
+step 2 : Using Math.cbrt of number
+step 3 : print cuberoot of given number

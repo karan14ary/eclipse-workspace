@@ -1,0 +1,88 @@
+package com.CountTheDifferentTypeOfCharacter;
+
+public class CommaInstead {
+	static void countLetterAndShowLetterSeparatedByComma(String str)
+	{
+		int upper=0;//for uppercase
+		int lower=0;//for lowercase
+		int num=0;//for numbers
+		int special=0;//for special
+	//creating an empty string to store the differnet letters
+		String strUpper="";//for uppercase
+		String strLower="";//for lowercase
+		String strNum="";//for numbers
+		String strSpecial="";//for special characters
+		for(int i=0;i<=str.length()-1;i++) {
+			//traversing all the letters of string str
+			if(str.charAt(i)>='A'&&str.charAt(i)<='Z') {//check uppwecase
+				upper++;//true than incrase counter
+				strUpper+=str.charAt(i);//concat element with empty string
+			}
+			else if(str.charAt(i)>='a'&&str.charAt(i)<='z') {//checck lower case
+				lower++;//increase lower counter
+				strLower+=str.charAt(i);//concat element  with empty string
+			}
+			else if(str.charAt(i)>='0' &&str.charAt(i)<='9') 
+			{//check number
+				num++;//true increas ecounter
+				strNum+=str.charAt(i);//concat element with the empty string
+			}
+			else {
+				special++;//increse special counter
+				strSpecial+=str.charAt(i);//concat with empty string
+			}
+		}
+	String Upper[]=strUpper.split("");//creating string array for upper
+	String Lower[]=strLower.split("");
+	String Number[]=strNum.split("");
+	String Special[]=strSpecial.split("");
+	String strUpper1="";//for uppercase
+	String strLower1="";//for lowercase
+	String strNum1="";//for numbers
+	String strSpecial1="";//for special characters
+	for(int i=0;i<=Upper.length-1;i++)
+	{
+		if(i>=0&&i<=Upper.length-2) {
+			strUpper1+=Upper[i]+",";
+		}
+		else {
+			strUpper1+=Upper[i];
+		}
+	}
+	for(int i=0;i<=Lower.length-1;i++)
+	{
+		if(i>=0&&i<=Lower.length-2) {
+			strLower1+=Lower[i]+",";
+		}
+		else {
+			strLower1+=Lower[i];
+		}
+	}
+	for(int i=0;i<=Number.length-1;i++)
+	{
+		if(i>=0&&i<=Number.length-2) {
+			strNum1+=Number[i]+",";
+		}
+		else {
+			strNum1+=Number[i];
+		}
+	}
+	for(int i=0;i<=Special.length-1;i++)
+	{
+		if(i>=0&&i<=Special.length-2) {
+			strSpecial1+=Special[i]+",";
+		}
+		else {
+			strSpecial1+=Special[i];
+		}
+	}
+	System.out.println("Count of Lowercase Letter : "+lower);
+	System.out.println("Lowercase Letters : "+strLower1);
+	System.out.println("Count of Uppercase Letter : "+upper);
+	System.out.println("Lowercase Letters : "+strUpper1);
+	System.out.println("Count of Numbers : "+num);
+	System.out.println("Numbers : "+strNum1);
+	System.out.println("Count of SpecialCharacter : "+special);
+	System.out.println("Special Characters : "+strSpecial1);
+	}
+}

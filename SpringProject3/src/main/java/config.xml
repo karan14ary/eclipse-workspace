@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- Setter injection -->
+<bean class="com.springProjectEmployee.SpringProject3.Employee" id="emp1">
+<property name="e_id" value="1"></property>
+<property name="e_name" value="Mohit"></property>
+<property name="salary" value="65000"></property>
+</bean>
+<!-- Setter injection -->
+<bean class="com.springProjectEmployee.SpringProject3.Employee" id="emp2">
+<property name="e_id" value="2"></property>
+<property name="e_name" value="Arjun"></property>
+<property name="salary" value="75000"></property>
+</bean>
+
+<!-- Constructor Injection -->
+<bean class="com.springProjectEmployee.SpringProject3.Employee" id="emp3">
+<constructor-arg value="3"></constructor-arg>
+<constructor-arg value="Mohak"></constructor-arg>
+<constructor-arg value="95000"></constructor-arg>
+</bean>
+<!-- Constructor Injection -->
+<bean class="com.springProjectEmployee.SpringProject3.Employee" id="emp4">
+<constructor-arg value="4"></constructor-arg>
+<constructor-arg value="Amit"></constructor-arg>
+<constructor-arg value="98000"></constructor-arg>
+</bean>
+</beans>

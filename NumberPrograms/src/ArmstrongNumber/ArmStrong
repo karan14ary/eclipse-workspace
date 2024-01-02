@@ -1,0 +1,9 @@
+steps for Armstrong
+step 1 :Take the user input from the user
+step 2 :Take the count of each digit using while loop
+step 3 :Take each digit of the number by using the while loop untill n is not equal to 0
+step 4 :Raise the power of each digit taking digit as base and count as exponent
+step 5 :Take the sum of power raised values of digits
+step 6 :Check if the sum  and user input number is equal or not
+step 7 :if sum is = to number then print Armstrong number
+step 8 :else print Not ArmStrong

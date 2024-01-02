@@ -1,0 +1,15 @@
+package com.Hibernate.Project7.MTM;
+import java.util.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Employee {
+@Id
+int e_id;
+String e_name;
+String e_team;
+@ManyToMany
+List <Technology>technology;
+}

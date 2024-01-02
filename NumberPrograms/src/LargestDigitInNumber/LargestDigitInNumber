@@ -1,0 +1,11 @@
+steps for execution of largest digit in number
+step 1 :Take the number  as user input n
+step 2 :Take each digits of the number using while loop until n is not equal to 0
+step 3 :take temporary variable as temp and l 
+step 4 :each digit is stored in temp using n%10
+step 5 :check if the temp is greater than l or not 
+step 6 :if temp grater than l then  assign l with temp
+         it will check for each digit
+step 7 :if l is greater than all the digits in a number then print l is greater digit
+         
+ 

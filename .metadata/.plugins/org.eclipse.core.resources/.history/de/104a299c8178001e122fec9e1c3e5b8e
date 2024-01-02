@@ -1,0 +1,14 @@
+package com.MultiThrwadingex2;
+
+public class PrintNum extends Thread {
+public  void run() {
+	try {
+		for(int i=1;i<=5;i++) {
+			System.out.println(i);
+			Thread.sleep(2000);
+		}
+	}	
+	catch(InterruptedException ie) {
+		ie.printStackTrace();
+}
+}

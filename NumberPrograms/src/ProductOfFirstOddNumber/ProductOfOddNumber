@@ -1,0 +1,6 @@
+step for product of odd number from 1 to n
+Step 1 :Take the user input n
+step 2 :Take iternation using for loop from i=1 to i<=n
+step 3 :Check i is odd or even using i%2 is not equal to 0(remainder)
+step 4 :Multiply each number by using m=m*i where m=1 is initialized before
+step 5 :Print m as multiple of odd number from 1 to n  

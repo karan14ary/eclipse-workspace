@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ArmstrongNumber"/>
+    <fullyQualifiedTypeName name="SumOfFirstNatutralNumber.SumNatural"/>
+    <fullyQualifiedTypeName name="RectangleSquareCheck.RectangleSquareCheckApp"/>
+    <fullyQualifiedTypeName name="PowerCalculator.PowerCalculatorApp"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.Assignment3.SumOf2ArrayAndStoredIn3rdArray.sum"/>
+    <fullyQualifiedTypeName name="com.Assignment.SortingAlgorithms.Sort"/>
+    <fullyQualifiedTypeName name="com.String.CovertLowerToUpperAndViceversa.ConvertLowerToUpperAndViceversa"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.security.PKCS12Attribute"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="multipleBlock.P"/>
+    <fullyQualifiedTypeName name="com.AbstractClasselement.ParentChildApp"/>
+    <fullyQualifiedTypeName name="com.customException.UnderAgeException"/>
+    <fullyQualifiedTypeName name="com.customException.OverAgeException"/>
+    <fullyQualifiedTypeName name="com.ExampleRunnable.Program"/>
+    <fullyQualifiedTypeName name="com.exampleRunnablethread.Program"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.Printminmaxmultiplereturn.Pair"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedEntityGraphs"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.Hibernate.Project8.CRUDOperationinHibernate.Laptop"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.Hibernate.Project9.SpringApp.JavaTrainer"/>
+    <fullyQualifiedTypeName name="com.Hibernate.Project9.SpringApp.PythonTrainer"/>
+    <fullyQualifiedTypeName name="com.Hibernate.Project9.SpringApp.DBTrainer"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.springProject6wiring.SpringProject6.Mobile"/>
+</qualifiedTypeNameHistroy>
